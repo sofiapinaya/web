@@ -671,7 +671,7 @@ button[type="submit"]:hover {
         display: flex;
     flex-direction: column; /* Mantiene la dirección del flex en columna */
     width: 100%; /* Cambia el ancho a 100% para ocupar todo el espacio disponible */
-    max-width: 500px; /* O ajusta este valor a lo que desees */
+    max-width: 600px; /* O ajusta este valor a lo que desees */
      margin-left: 5px; /* Mantiene el margen izquierdo en auto */
     margin-right: 5px; /* Ajusta este valor para mover el contenedor a la derecha */
     padding: 0 15px; /* Agrega un poco de relleno a los lados */
