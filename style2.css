@@ -259,56 +259,13 @@ body {
     text-align: justify;
   }
   
-  @media (max-width: 768px) {
-    .content h2 {
-      font-size: 36px;
-    }
   
-    .content p {
-      font-size: 16px;
-    }
-  }
-
-  .space {
-    height: 40px; /* Altura del espacio en blanco */
-}
 
 /* Existing CSS remains unchanged */
 
 /* Tablet Styles */
 @media screen and (max-width: 1024px) {
-    .header-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .header-container .contact-info {
-      text-align: center;
-      margin-top: 10px;
-    }
-  
-    nav ul {
-      flex-wrap: wrap;
-    }
-  
-    nav ul li {
-      margin: 5px 10px;
-    }
-  
-    .hero-section {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .hero-image {
-      width: 80%;
-      margin-bottom: 20px;
-    }
-  
-    .hero-text {
-      width: 80%;
-      padding: 20px;
-    }
+
   
     .mission-vision {
       flex-direction: column;
@@ -324,33 +281,11 @@ body {
       width: 90%;
     }
   
-    .footer-container {
-      grid-template-columns: repeat(3, 1fr);
-    }
+ 
   }
   
   /* Mobile Styles */
   @media screen and (max-width: 768px) {
-    .container {
-      width: 95%;
-    }
-  
-    .hero-image {
-      width: 100%;
-    }
-  
-    .hero-text {
-      width: 100%;
-      padding: 15px;
-    }
-  
-    .hero-text h2 {
-      font-size: 20px;
-    }
-  
-    .hero-text p {
-      font-size: 14px;
-    }
   
     .mission, .vision {
       width: 100%;
@@ -373,13 +308,7 @@ body {
       font-size: 14px;
     }
   
-    .footer-container {
-      grid-template-columns: 1fr;
-    }
-  
-    .footer-section {
-      padding: 15px;
-    }
+    
   }
 
   nav ul li a {
