@@ -661,30 +661,25 @@ button[type="submit"]:hover {
    .map-container {
         width: 100%; /* Asegura que el mapa use el ancho completo */
         margin-right: 0; /* Remueve el margen derecho */
-        padding: 10px; /* Espaciado interno para que no esté pegado al borde */
         animation: none; /* Quita la animación */
+        box-shadow: none; /* Opcional: quita la sombra en móviles */
     }
 
     .form-container {
         width: 100%; /* Asegura que el formulario use el ancho completo */
-        margin-right: 0; /* Remueve el margen derecho */
-        padding: 10px; /* Espaciado interno para que no esté pegado al borde */
-    }
-
-    .container {
-        flex-direction: column; /* Cambia a columna para móviles */
-        align-items: center; /* Centra el contenido */
+        margin: 0; /* Remueve márgenes */
     }
 
     .map-buttons {
         flex-direction: column;
-        align-items: center; /* Centra los botones */
+        align-items: center;
     }
 
     .map-buttons button {
         margin: 5px 0;
-        width: 80%; /* Botones ocupan el 80% del ancho */
+        width: 80%;
     }
+
 
 }
 
