@@ -943,3 +943,117 @@ header {
   animation: fadeIn 0.8s ease-in forwards; /* Aplica la animación al texto */
   opacity: 0; /* Asegúrate de que comience invisible */
 }
+
+
+
+
+
+
+
+
+
+* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-container .contact-info {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        margin: 5px 10px;
+    }
+
+    .quienes-somos {
+        height: auto;
+        min-height: 400px;
+    }
+
+    .content h2 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    th, td {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .header-container .logo img {
+        max-width: 100px;
+    }
+
+    .header-container .contact-info {
+        font-size: 12px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .quienes-somos {
+            min-height: 150vh; /* 80% de la altura de la ventana */
+
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    td:nth-child(2), td:nth-child(3) {
+        width: auto;
+    }
+
+    .header-peru {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-section {
+        padding: 15px;
+    }
+}
