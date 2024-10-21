@@ -658,33 +658,35 @@ button[type="submit"]:hover {
         font-size: 14px;
     }
 
-   .map-container {
-        width: 100%; /* Asegura que el mapa use el ancho completo */
-        margin-right: 0; /* Remueve el margen derecho */
-        animation: none; /* Quita la animación */
-        box-shadow: none; /* Opcional: quita la sombra en móviles */
-    }
-
-    .form-container {
-        width: 100%; /* Asegura que el formulario use el ancho completo */
-        margin: 0; /* Remueve márgenes */
-    }
-
-    .map-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .map-buttons button {
-        margin: 5px 0;
-        width: 80%;
-    }
+   
 .footer-container {
         grid-template-columns: 1fr;
     }
 
     .footer-section {
         padding: 15px;
+    }
+
+       .container {
+        display: flex;
+    flex-direction: column; /* Mantiene la dirección del flex en columna */
+    width: 80%; /* Cambia el ancho a 100% para ocupar todo el espacio disponible */
+    max-width: 500px; /* O ajusta este valor a lo que desees */
+     margin-left: 5px; /* Mantiene el margen izquierdo en auto */
+    margin-right: 5px; /* Ajusta este valor para mover el contenedor a la derecha */
+    padding: 0 15px; /* Agrega un poco de relleno a los lados */
+    }
+
+    .map-container {
+        width: 100%; /* Mantén el ancho completo */
+        margin: 0 0 20px; /* Espacio inferior para separar del formulario */
+        overflow: hidden; /* Asegúrate de que no se desborde */
+    }
+
+    .form-container {
+        width: 100%; /* Asegúrate de que el formulario ocupe todo el ancho */
+        margin: 0; /* Elimina cualquier margen */
+                overflow: hidden; /* Asegúrate de que no se desborde */
     }
 
 }
