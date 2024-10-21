@@ -1055,4 +1055,18 @@ header {
     .footer-section {
         padding: 15px;
     }
+
+    .hero-text {
+    left: 20px; /* Adjust left positioning for mobile */
+    transform: translate(0, -50%); /* Center vertically */
+    max-width: 90%; /* Limit width to prevent overflow */
+  }
+
+  .hero-text h1 {
+    font-size: 1.8em; /* Reduce font size for mobile */
+  }
+
+  .hero-text p {
+    font-size: 1em; /* Reduce font size for mobile */
+  }
 }
