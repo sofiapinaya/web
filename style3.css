@@ -534,9 +534,7 @@ nav ul li a:hover::after {
 
 
 
-
-
-* Tablet Styles */
+/* Tablet Styles */
 @media screen and (max-width: 1024px) {
     .header-container {
         flex-direction: column;
@@ -603,8 +601,7 @@ nav ul li a:hover::after {
     }
 
     .quienes-somos {
-            min-height: 50vh; /* 80% de la altura de la ventana */
-
+        min-height: 300px;
     }
 
     .content h2 {
