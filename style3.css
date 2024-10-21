@@ -603,7 +603,7 @@ nav ul li a:hover::after {
     }
 
     .quienes-somos {
-            min-height: 90vh; /* 80% de la altura de la ventana */
+            min-height: 50vh; /* 80% de la altura de la ventana */
 
     }
 
