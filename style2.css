@@ -599,5 +599,21 @@ nav ul li a {
     .footer-section {
         padding: 15px;
     }
+
+    .hero-section {
+        flex-direction: column; /* Cambiado a columna para apilar imagen y texto */
+        align-items: center; /* Centrar contenido */
+    }
+    
+    .hero-image {
+        width: 100%; /* Asegúrate de que la imagen ocupe todo el ancho */
+        margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+    }
+
+    .hero-text {
+        width: 100%; /* Asegúrate de que el texto ocupe todo el ancho */
+        padding: 20px; /* Ajusta el padding según sea necesario */
+    }
+
 }
 
