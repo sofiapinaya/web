@@ -676,8 +676,8 @@ button[type="submit"]:hover {
         padding: 15px;
     }
 
-    .map-container {
-      width: 30%; /* Ajusta el ancho según lo necesites */
+    .container {
+      width: auto; /* Ajusta el ancho según lo necesites */
 }
 }
 
