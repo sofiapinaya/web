@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+
+}
+
+header {
+    background-color: white;
+    color: #005b9f;
+    padding: 10px 0;
+}
+
+/* Header */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-container .logo img {
+    max-width: 130px;
+}
+
+.header-container .contact-info {
+    text-align: right;
+    font-size: 14px;
+    text-align: right; /* Alinea el texto a la derecha */
+    font-weight: bold; /* Asegura que el texto esté en negrita */
+    
+ 
+}
+
+.header-container .contact-info p {
+    margin: 5px 0;
+    
+}
+
+.header-container .contact-info i {
+    margin-right: 8px;
+}
+
+nav {
+    background-color: #5370ac;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #344872; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 50px; /* Espaciado interno */
+}
+
+.footer-container {
+    display: grid; /* Usar grid para el layout */
+    grid-template-columns: repeat(6, 1fr); /* 6 columnas de igual tamaño */
+    gap: 5px; /* Espacio entre columnas */
+}
+
+.footer-section {
+    padding: 30px; /* Espaciado interno en cada sección */
+}
+
+.footer-section h4 {
+    margin: 0 0 15px; /* Espacio debajo del subtítulo */
+}
+
+.footer-image-container {
+    text-align: center; /* Centrar la imagen */
+    margin-bottom: 5px; /* Espacio entre la imagen y el footer */
+}
+
+.footer-image {
+    max-width: 150px; /* Ajustar el tamaño de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Asegúrate de que esto esté configurado */
+    margin: 20px 0;
+    padding: 0; /* Asegúrate de que no haya padding */
+}
+.hero-image {
+    width: 55%;
+    border-radius: 20px; /* Cambiado a un valor positivo */
+}
+
+
+.hero-text {
+    width: 50%;
+    padding: 35px;
+    text-align: justify; /* Justificar el texto */
+
+}
+
+.hero-text h2 {
+    color: #1a8a8a;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.hero-text p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    
+}
+
+.mission, .vision {
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+
+
+    
+}
+
+.mission h3, .vision h3 {
+    color: #1a8a8a;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.mission p, .vision p {
+    color: #333;
+}
+
+.values {
+    margin: 40px auto; /* Márgenes automáticos para centrar */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; /* Ajusta el ancho según lo que necesites */
+    max-width: 800px; /* Limita el ancho máximo del cuadro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.values h3 {
+    color: #1a8a8a;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.values ul {
+    list-style-type: none;
+}
+
+.values li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.values li strong {
+    color: #1a8a8a;
+}
+
+.quienes-somos {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 100%;
+    background-image: url('fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4; /* Ajusta el valor según la opacidad deseada */
+
+  }
+  
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+  }
+  
+  .content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    color: white;
+    max-width: 800px;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .content h2 {
+      font-size: 36px;
+    }
+  
+    .content p {
+      font-size: 16px;
+    }
+  }
+
+  .space {
+    height: 40px; /* Altura del espacio en blanco */
+}
+
+/* Existing CSS remains unchanged */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .header-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-container .contact-info {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    nav ul {
+      flex-wrap: wrap;
+    }
+  
+    nav ul li {
+      margin: 5px 10px;
+    }
+  
+    .hero-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero-image {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .hero-text {
+      width: 80%;
+      padding: 20px;
+    }
+  
+    .mission-vision {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .mission, .vision {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .values {
+      width: 90%;
+    }
+  
+    .footer-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Mobile Styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    .hero-image {
+      width: 100%;
+    }
+  
+    .hero-text {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .hero-text h2 {
+      font-size: 20px;
+    }
+  
+    .hero-text p {
+      font-size: 14px;
+    }
+  
+    .mission, .vision {
+      width: 100%;
+    }
+  
+    .values {
+      width: 100%;
+    }
+  
+    .quienes-somos {
+      height: auto;
+      min-height: 400px;
+    }
+  
+    .content h2 {
+      font-size: 28px;
+    }
+  
+    .content p {
+      font-size: 14px;
+    }
+  
+    .footer-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-section {
+      padding: 15px;
+    }
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative; /* Necesario para el pseudo-elemento */
+    overflow: hidden; /* Para ocultar el subrayado */
+  }
+  
+  nav ul li a::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #00a8e8; /* Color del subrayado */
+    transform: translateX(-100%); /* Comienza fuera de la vista */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Transición suave */
+    opacity: 0; /* Comienza como invisible */
+  }
+  
+  nav ul li a:hover::after {
+    transform: translateX(0); /* Aparece al hacer hover */
+    opacity: 1; /* Se vuelve visible */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Añadir transform a la transición */
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: #000;
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño al hacer hover */
+  }
+  
+  .servicio-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    opacity: 0; /* Comienza invisible */
+    transform: translateY(20px); /* Se desplaza hacia abajo */
+    animation: fadeInUp 0.5s forwards; /* Aplica la animación */
+  }
+  
+  @keyframes fadeInUp {
+    to {
+        opacity: 1; /* Termina visible */
+        transform: translateY(0); /* Se queda en su posición original */
+    }
+  }
+  
+  header {
+    background-color: white;
+    color: #005b9f;
+    padding: 10px 0;
+    opacity: 0; /* Comienza invisible */
+    transform: translateY(-20px); /* Se desplaza hacia arriba */
+    animation: slideDown 0.5s forwards; /* Aplica la animación */
+  }
+  
+  @keyframes slideDown {
+    to {
+        opacity: 1; /* Termina visible */
+        transform: translateY(0); /* Se queda en su posición original */
+    }
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 20px; /* Espacio entre los elementos */
+  }
+  
+  .grid-item {
+    background: #00a8e8; /* Color de fondo */
+    padding: 20px; /* Espacio interno */
+    border-radius: 8px; /* Esquinas redondeadas */
+    transition: transform 0.3s ease; /* Transición suave para el movimiento */
+  }
+  
+  .grid-item:hover {
+    transform: translateY(-5px); /* Mueve el elemento hacia arriba al hacer hover */
+  }
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0; /* Comienza completamente transparente */
+    }
+    to {
+        opacity: 1; /* Termina completamente visible */
+    }
+  }
+  
+  
+  
+  /* Elemento de texto dentro de hero */
+  .hero-text {
+    animation: fadeIn 0.8s ease-in forwards; /* Aplica la animación al texto */
+    opacity: 0; /* Asegúrate de que comience invisible */
+  }
+  
+  .content {
+    opacity: 0; /* Comienza invisible */
+    transform: translateX(-20px); /* Desplazado a la izquierda */
+    animation: slideIn 0.8s ease forwards; /* Aplica la animación */
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1; /* Termina visible */
+        transform: translateX(0); /* Regresa a su posición original */
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0; /* Comienza invisible */
+        transform: translateY(20px); /* Desplazado hacia abajo */
+    }
+    to {
+        opacity: 1; /* Termina visible */
+        transform: translateY(0); /* Regresa a su posición original */
+    }
+}
+
+.mission,
+.vision {
+    animation: slideUp 0.8s ease forwards; /* Aplica la animación */
+}
+
+.values {
+    opacity: 0; /* Comienza invisible */
+    animation: fadeIn 1s ease forwards; /* Aplica la animación */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Comienza completamente transparente */
+    }
+    to {
+        opacity: 1; /* Termina completamente visible */
+    }
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative; /* Necesario para el pseudo-elemento */
+    overflow: hidden; /* Para ocultar el subrayado */
+  }
+  
+  nav ul li a::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #00a8e8; /* Color del subrayado */
+    transform: translateX(-100%); /* Comienza fuera de la vista */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Transición suave */
+    opacity: 0; /* Comienza como invisible */
+  }
+  
+  nav ul li a:hover::after {
+    transform: translateX(0); /* Aparece al hacer hover */
+    opacity: 1; /* Se vuelve visible */
+  }

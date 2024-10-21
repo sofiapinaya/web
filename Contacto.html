@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VM Consultores de Ingeniería S.A.</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo VM Consultores de Ingeniería S.A.">
+            </div>
+            <div class="contact-info">
+                <p>MAKER-PIPE SPOOLS PERU</p>
+                <p>“COMPROMETIDOS CON NUESTRO TRABAJO”</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="QuienesSomos.html">QUIÉNES SOMOS</a></li>
+            <li><a href="Servicios.html">SERVICIOS</a></li>
+            <li><a href="Proyectos.html">PROYECTOS</a></li>
+            <li><a href="Contacto.html">CONTÁCTENOS</a></li>
+        </ul>
+    </nav>
+
+    <div class="space"></div> <!-- Elemento vacío para el espacio -->
+
+    <div class="container">
+        <div class="map-container">
+            <h2>Dirección</h2>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GCydDH_51BI9h6HEG6eWZXM7SeW5NvA&ehbc=2E312F&noprof=1" width="640" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-buttons"></div>
+        </div>
+        
+        <div class="form-container">
+            <h2>Contacte con nosotros</h2>
+            <form id="contactForm" onsubmit="handleSubmit(event)" action="#" method="post">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellidos">Apellidos *</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+
+                <label for="telefono">Teléfono *</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="correo">Correo electrónico *</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="comentarios">Comentarios *</label>
+                <textarea id="comentarios" name="comentarios" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="confirmationMessage" style="display:none; margin-top: 10px; color: green;">
+                ¡Mensaje enviado correctamente!
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault(); // Prevenir el envío del formulario
+
+            const formData = {
+                nombre: document.getElementById("nombre").value,
+                apellidos: document.getElementById("apellidos").value,
+                telefono: document.getElementById("telefono").value,
+                correo: document.getElementById("correo").value,
+                comentarios: document.getElementById("comentarios").value,
+            };
+
+            // Simulación del envío (puedes reemplazarlo por una llamada a tu servidor)
+            console.log("Datos enviados:", formData);
+
+            // Mostrar el mensaje de confirmación
+            const confirmationMessage = document.getElementById("confirmationMessage");
+            confirmationMessage.style.display = "block";
+
+            // Limpiar el formulario
+            document.getElementById("contactForm").reset();
+        }
+    </script>
+
+    <footer>
+        <div class="footer-image-container">
+            <img src="image.png" alt="Descripción de la imagen" class="footer-image">
+        </div>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4><strong>Razón Social</strong></h4>
+                <p>MAKER COMPANY S.A. & IPE INGENIERIA S.A.C</p>
+            </div>
+            <div class="footer-section">
+                <h4><strong>Número de RUC</strong></h4>
+                <p>20612935336</p>
+            </div>
+            <div class="footer-section">
+                <h4><strong>Dirección</strong></h4>
+                <p>Urb. Las Orquídeas II Mz. H Lote Callao</p>
+                <br>
+                <p>Callao, Av. Almirante Grau 715</p>
+                <br>
+                <p>Oficina 501 Barranco</p>
+            </div>
+            <div class="footer-section">
+                <h4><strong>Teléfonos</strong></h4>
+                <p><a href="tel:+51913443632">+51 913443632</a></p>
+                <br>
+                <p><a href="tel:+51910352362">+51 910352362</a></p>
+                <br>
+                <p><a href="tel:+51975043244">+51 975043244</a></p>
+            </div>
+            <div class="footer-section">
+                <h4><strong>Contacto</strong></h4>
+                <p>Gerente Técnico: David Haro</p>
+                <br>
+                <p>Gerente Comercial: Alba Pedraza</p>
+                <br>
+                <p>Representante Legal: Mauricio Pinaya</p>
+            </div>
+            <div class="footer-section">
+                <h4><strong>E-mail</strong></h4>
+                <p><a href="mailto:dharo@makerpipespools.com">dharo@makerpipespools.com</a></p>
+                <p><a href="mailto:apedrazadeharo@makerpipespools.com">apedrazadeharo@makerpipespools.com</a></p>
+                <p><a href="mailto:mpinaya@makerpipespools.com">mpinaya@makerpipespools.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
