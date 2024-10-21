@@ -637,4 +637,23 @@ nav ul li a:hover::after {
     .footer-section {
         padding: 15px;
     }
+
+    .servicios {
+        flex-direction: column; /* Cambiar a columnas */
+        align-items: center; /* Centrar elementos en la columna */
+    }
+
+    .imagen-servicios,
+    .lista-servicios {
+        width: 100%; /* Asegurarse de que ambas ocupen el 100% del ancho */
+    }
+
+    .imagen-servicios img {
+        width: 100%; /* Asegurarse de que la imagen también ocupe el 100% del ancho */
+        height: auto; /* Mantener la proporción de la imagen */
+    }
+
+    .lista-servicios {
+        padding: 20px; /* Espaciado para la lista de servicios */
+    }
 }
