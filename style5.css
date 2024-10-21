@@ -658,38 +658,32 @@ button[type="submit"]:hover {
         font-size: 14px;
     }
 
-    .map-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .map-buttons button {
-        margin: 5px 0;
-        width: 80%;
-    }
-
-    .footer-container {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-section {
-        padding: 15px;
-    }
-
-       .map-container {
+   .map-container {
         width: 100%; /* Asegura que el mapa use el ancho completo */
         margin-right: 0; /* Remueve el margen derecho */
+        padding: 10px; /* Espaciado interno para que no esté pegado al borde */
         animation: none; /* Quita la animación */
     }
 
+    .form-container {
+        width: 100%; /* Asegura que el formulario use el ancho completo */
+        margin-right: 0; /* Remueve el margen derecho */
+        padding: 10px; /* Espaciado interno para que no esté pegado al borde */
+    }
+
+    .container {
+        flex-direction: column; /* Cambia a columna para móviles */
+        align-items: center; /* Centra el contenido */
+    }
+
     .map-buttons {
         flex-direction: column;
-        align-items: center;
+        align-items: center; /* Centra los botones */
     }
 
     .map-buttons button {
         margin: 5px 0;
-        width: 80%;
+        width: 80%; /* Botones ocupan el 80% del ancho */
     }
 
 }
