@@ -679,7 +679,13 @@ button[type="submit"]:hover {
         margin: 5px 0;
         width: 80%;
     }
+.footer-container {
+        grid-template-columns: 1fr;
+    }
 
+    .footer-section {
+        padding: 15px;
+    }
 
 }
 
