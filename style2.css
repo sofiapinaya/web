@@ -496,7 +496,7 @@ nav ul li a {
   }
 
 
-* Tablet Styles */
+/* Tablet Styles */
 @media screen and (max-width: 1024px) {
     .header-container {
         flex-direction: column;
@@ -563,8 +563,7 @@ nav ul li a {
     }
 
     .quienes-somos {
-            min-height: 150vh; /* 80% de la altura de la ventana */
-
+        min-height: 60vh;
     }
 
     .content h2 {
@@ -601,3 +600,4 @@ nav ul li a {
         padding: 15px;
     }
 }
+
