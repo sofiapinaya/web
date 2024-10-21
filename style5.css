@@ -675,6 +675,10 @@ button[type="submit"]:hover {
     .footer-section {
         padding: 15px;
     }
+
+    .map-container {
+      width: 30%; /* Ajusta el ancho según lo necesites */
+}
 }
 
 
