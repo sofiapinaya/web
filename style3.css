@@ -381,7 +381,7 @@ footer {
       width: 100%;
   }
 
-      .header-container .logo img {
+   .header-container .logo img {
         max-width: 100px;
     }
 
@@ -396,7 +396,37 @@ footer {
 
     nav ul li {
         margin: 5px 0;
+    }
 
+    .quienes-somos {
+        min-height: 300px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    td:nth-child(2), td:nth-child(3) {
+        width: auto;
+    }
+
+    .header-peru {
+        font-size: 20px;
+        padding: 15px;
+    }
 
     .footer-container {
         grid-template-columns: 1fr;
